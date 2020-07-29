@@ -1,5 +1,7 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -10,8 +12,6 @@ var _sequelize = _interopRequireDefault(require("sequelize"));
 var _database = require("../database/database");
 
 var _Task = _interopRequireDefault(require("./Task"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 //Funcionalidades de Sequelize
 //Importamos la conexion
