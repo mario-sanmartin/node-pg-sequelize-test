@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize';
 //Esto es mi archivo de conexion
 export const sequelize =  new Sequelize(
-    'domingo', // nombre bd
+    'intentoDeBd', // nombre bd
     'postgres', //nombre usuario
     'pacifik', //contraseña
         {
